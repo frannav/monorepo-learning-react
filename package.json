@@ -1,0 +1,9 @@
+{
+  "name": "monorepo-learning-react",
+  "private": true,
+  "description": "Pnpm and Nx monorepo with projects to learn react",
+  "scripts": {
+    "prepare": "echo \"installed!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
