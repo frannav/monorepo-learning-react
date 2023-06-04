@@ -1,9 +1,10 @@
-import './App.css'
+import { products } from './mocks/products.json';
+import { Products } from './components/Products/Products';
 
 function App() {
   return (
-    <h1>React shop with global state</h1>
+    <Products products={products}/>
   )
 }
 
-export default App
+export default App;
